@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function BMI(weight, height) {
+        var bmi = weight / Math.pow(height, 2);
+        if (bmi < 18.5) {
+          document.write("Your BMI is " + bmi + ",so you are underweight.");
+        }
+        if (bmi > 18.5 && bmi >= 24.9) {
+          document.write(
+            "Your BMI is " + bmi + ",so you have a normal weight."
+          );
+        }
+        if (bmi > 24.9) {
+          document.write("Your BMI is " + bmi + ",so you are overweight.");
+        }
+        return Math.round(bmi);
+      }
+
+      var bmi = BMI(65, 1.8);
+      document.write("The BMI of the body is " + bmi);
+    </script>
+  </body>
+</html>

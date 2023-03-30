@@ -1,0 +1,118 @@
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ ls
+'3D Objects'/         Downloads/               Music/            NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Recent@         Videos/
+ AppData/             Favorites/              'My Documents'@    NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/
+'Application Data'@   IdeaProjects/            NetHood@          NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Searches/
+ Contacts/            IntelGraphicsProfiles/   NTUSER.DAT        ntuser.ini                                                                                     SendTo@
+ Cookies@             Links/                   ntuser.dat.LOG1   OneDrive/                                                                                     'Start Menu'@
+ Documents/          'Local Settings'@         ntuser.dat.LOG2   PrintHood@                                                                                     Templates@
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ OneDrive
+bash: OneDrive: command not found
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd OneDrive;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ users
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ Users
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ cd Users
+bash: cd: Users: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ cd Users;
+bash: cd: Users: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ cd Documents;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd GitHub/
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub
+$ cd -
+/c/Users/hp/OneDrive/Documents
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd ~
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd Documents;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/Documents
+$ cd Documents/GitHub/desktop-tutorial;
+bash: cd: Documents/GitHub/desktop-tutorial: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/Documents
+$ cd OneDrive;
+bash: cd: OneDrive: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/Documents
+$ cd ~
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd onedrive;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/onedrive
+$ cd ~~
+bash: cd: ~~: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/onedrive
+$ cd ~
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd OneDrive;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ cd Documents;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd GitHub/desktop-tutorial/.
+./    ../   .git/ 
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd GitHub/desktop-tutorial/.
+./    ../   .git/ 
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd GitHub/desktop-tutorial/.git;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub/desktop-tutorial/.git (GIT_DIR!)
+$ ls
+COMMIT_EDITMSG  config  description  HEAD  hooks/  index  info/  logs/  objects/  refs/
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub/desktop-tutorial/.git (GIT_DIR!)
+$ cd ~
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd Documents;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/Documents
+$ cd GitHub/desktop-tutorial/.git;
+bash: cd: GitHub/desktop-tutorial/.git: No such file or directory
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/Documents
+$ cd ..
+
+hp@DESKTOP-U46E5PJ MINGW64 ~
+$ cd OneDrive;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive
+$ cd Documents;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents
+$ cd GitHub/desktop-tutorial/.git;
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub/desktop-tutorial/.git (GIT_DIR!)
+$ cd ..
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub/desktop-tutorial (main)
+$ ^C
+
+hp@DESKTOP-U46E5PJ MINGW64 ~/OneDrive/Documents/GitHub/desktop-tutorial (main)
+$ ^C
